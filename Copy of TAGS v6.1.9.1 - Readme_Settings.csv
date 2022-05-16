@@ -1,0 +1,34 @@
+TAGS v6.1.9.1,,
+"
+Created by mhawksey. Read more about this at:",,
+http://tags.hawksey.info,,
+With this spreadsheet you can:,,
+- automatically pull results from a Twitter Search into a Google Spreadsheet,,
+Instructions:,,
+1. If you've never run TAGS > Setup Twitter Access do so now (this should only need be done once for all your TAGS sheets) ,,
+,,
+2. Enter term,#vaccinated,<- you can use search operators like AND OR as well as from: and to: eg '#JobsNow AND from:BarackObama' (without quotes)
+,,
+"Note:  Make a one off collection with TAGS > Run now! or set a trigger to collect every hour TAGS > Update archive every hour. To change the frequency open Tools > Script Editor then Triggers > Current script's triggers... and adjust
+",,
+Advanced Settings:,,
+Period,default,
+Continuous/paged,continuous,<- deprecated option
+Follower count filter,0,<- if search term is being spammed you can set the minimum followers a person must have to be included in archive
+Number of tweets,3000,<- maximum varies based on the type of archive you are collecting
+Type,search/tweets,<- use a search term in step 3 above to get results from last 7 days
+Stats,,
+Number of Tweets,"1,488",
+Unique tweets,"1,482",
+First Tweet,06/05/2022 05:34:11,
+Last Tweet,14/05/2022 12:40:05,
+Make interactive,,
+Turn your archive into an interactive online resource using TAGSExplorer - see http://bit.ly/TAGSsetup,,
+Note: Share > Anyone with link to use these views,,
+,TAGSExplorer,<- conversation explorer
+,,
+,TAGS Archive,<- searchable archive
+,,
+News,,
+TAGS v6.0 is here! Includes streamlined twitter connection experience and new support site,,
+http://tags.hawksey.info/,,
